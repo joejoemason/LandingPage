@@ -22,7 +22,7 @@ function renderEmail(doc){
     emailCollectOne.appendChild(li);
 }
     // getting data
-db.collection('emailAddress').get().then(snapshot => {
+db.collection('emailContacts').get().then(snapshot => {
     console.log(snapshot.docs);
     snapshot.docs.forEach(doc => {
         renderEmail(doc);
@@ -32,7 +32,7 @@ db.collection('emailAddress').get().then(snapshot => {
 // saving data
 form1.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('emailAddress').add({
+    db.collection('emailContacts').add({
         emailBuyer: form1.emailBuyer.value,
     });
     form1.emailBuyer.value = '';
@@ -41,7 +41,7 @@ form1.addEventListener('submit', (e) => {
 
 form2.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('emailAddress').add({
+    db.collection('emailContacts').add({
         emailSeller: form2.emailSeller.value
     });
     form2.emailSeller.value = '';
