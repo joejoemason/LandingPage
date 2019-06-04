@@ -2942,6 +2942,13 @@ h4,
   margin-bottom: 15px;
 }
 
+#findOut {
+  padding-right: 90%;
+}
+#getButtonArea {
+  padding-right: 28%;
+}
+
 h4+.category,
 h4.title+.category,
 .h4+.category,
@@ -2977,7 +2984,13 @@ p {
 .title {
   font-weight: 900;
   padding-top: 30px;
+  width: 200%;
 }
+
+.media .title {
+  width: 30px;
+}
+
 
 .title.title-up {
   text-transform: uppercase;
@@ -6828,6 +6841,8 @@ img {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 }
 
+
+
 .media .media-body {
   padding-right: 10px;
 }
@@ -7529,7 +7544,7 @@ img {
 .card-form-horizontal .form-group {
   margin: 0;
   padding-left: 10%;
-  width: 87% !important;
+  width: 63% !important;
 }
 
 .card-no-shadow {
@@ -9940,6 +9955,16 @@ img {
     -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+  .card-form-horizontal .input-group {
+    width: 87%;
+  }
+  #findOut {
+    align-content: center;
+    padding-left: 25%;
+  }
+  .title {
+    width: 80%;
   }
   .navbar-collapse:before {
     background: #FC5130;
