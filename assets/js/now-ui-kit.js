@@ -163,6 +163,12 @@ $(document).ready(function() {
     });
   }
 });
+// $(document).on('click touchstart', '.carousel-control-prev', function() {
+//   alert('ok');
+// });
+// $(document).on('click touchstart', '.carousel-control-next', function() {
+//   alert('ok');
+// });
 
 $(window).on('resize', function() {
   nowuiKit.initNavbarImage();

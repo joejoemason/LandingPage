@@ -9982,6 +9982,9 @@ img {
   #firstIndicators {
     padding-bottom: 25%;
   }
+  #bottomJoints {
+    width: 25%;
+  }
   .title {
 padding-top: 35%;
   font-weight: 900;
