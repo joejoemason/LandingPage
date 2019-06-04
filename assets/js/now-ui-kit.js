@@ -109,7 +109,7 @@ $(document).ready(function() {
 
   // Activate Carousel
   $('.carousel').carousel({
-    interval: 100000
+    interval: 900000
   });
 
   if ($(".datetimepicker").length != 0) {
