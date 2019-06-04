@@ -2982,6 +2982,7 @@ p {
 }
 
 .title {
+  padding-right: 19%;
   font-weight: 900;
   padding-top: 30px;
   width: 200%;
@@ -4097,7 +4098,7 @@ fieldset[disabled] .btn-neutral.active {
 .btn-round {
   border-width: 1px;
   border-radius: 40px !important;
-  padding: 11px 15px;
+  /* padding: 11px 15px; */
 }
 
 .btn-round.btn-simple {
@@ -7544,7 +7545,7 @@ img {
 .card-form-horizontal .form-group {
   margin: 0;
   padding-left: 10%;
-  width: 63% !important;
+  width: 100% !important;
 }
 
 .card-no-shadow {
@@ -9956,8 +9957,15 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
-  .card-form-horizontal .input-group {
-    width: 87%;
+  #listingsButton {
+    padding-right: 30%;
+  }
+  .card-form-horizontal .input-group,
+  .card-form-horizontal .form-group  {
+    width: 64% !important;
+  }
+  #emailCollectSeller {
+    padding-left: 20%;
   }
   #findOut {
     align-content: center;
