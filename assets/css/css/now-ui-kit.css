@@ -778,7 +778,9 @@ select.selectpicker {
   opacity: 0 !important;
   border: none;
 }
-
+#mobileView {
+  margin-right: 0%;
+}
 .bootstrap-select>select.mobile-device {
   top: 0;
   left: 0;
@@ -5256,6 +5258,7 @@ fieldset[disabled] .btn-link.active {
 
 .input-group,
 .form-group {
+  width: 279%;
   margin-bottom: 10px;
   position: relative;
 }
@@ -7545,8 +7548,8 @@ img {
 .card-form-horizontal .input-group,
 .card-form-horizontal .form-group {
   margin: 0;
-  padding-left: 10%;
-  width: 100% !important;
+  /* padding-left: 10%; */
+  width: 180% !important;
 }
 
 .card-no-shadow {
@@ -9908,6 +9911,10 @@ img {
 .subscribe-line-white {
   background-color: #FFFFFF;
 }
+#mainButton {
+
+  width: 130%;
+}
 
 .social-line-black,
 .subscribe-line-black {
@@ -9961,6 +9968,15 @@ img {
   #topTitle {
     color: #FC5130 !important;
   }
+  #mobileGap {
+    padding-top: 15%;
+  }
+  .input-group,
+.form-group {
+  width: 70%;
+  /* margin-bottom: 10px; */
+  /* position: relative; */
+}
   #listingsButton {
     padding-right: 30%;
   }
@@ -9980,6 +9996,7 @@ img {
     font-size: 3.1em;
   }
   #firstIndicators {
+    width: 100%;
     padding-bottom: 25%;
   }
   #bottomJoints {
