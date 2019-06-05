@@ -2972,8 +2972,8 @@ h5.category,
 
 h6,
 .h6 {
-  color: #FC5130;
-  font-size: 0.9em;
+  /* color: #FC5130; */
+  font-size: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -7547,7 +7547,7 @@ img {
 
 .card-form-horizontal .input-group,
 .card-form-horizontal .form-group {
-  margin: 0;
+  margin: 6%;
   /* padding-left: 10%; */
   width: 180% !important;
 }
@@ -9934,6 +9934,10 @@ img {
 [data-background-color] .social-line h6 {
   color: initial;
 }
+#emailFindBox {
+
+  padding-right: 10%;
+}
 
 [data-background-color] .social-line .btn.btn-simple {
   border: 0;
@@ -9965,8 +9969,17 @@ img {
     -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+  #emailFindBoxUnder {
+
+   margin:5% !important;
+  }
+  #emailFindBox {
+
+    width: 120%;
+  }
   #topTitle {
-    color: #FC5130 !important;
+    font-weight: 100;
+    /* color: #fcfafa !important; */
   }
   #mobileGap {
     padding-top: 15%;
